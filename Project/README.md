@@ -18,7 +18,7 @@
   
 # Hardware
   
-   ... image
+   ![image](https://user-images.githubusercontent.com/90611123/145371041-47122bd9-71bb-4fb3-adda-fc893dcfccc4.png)
   
   Hardware consists of RaspberryPi 4 and ADXL745 sensor.
 
