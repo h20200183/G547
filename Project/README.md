@@ -1,4 +1,4 @@
-# Driver writing for I2C interfacing of ADXL745 sensor
+# Driver writing for I2C interfacing of ADXL345 sensor
 
 # Prerequisite for the project
   For these files to run we need raspberry pi running on linux kernel. To update and build the kernel use [link](https://www.raspberrypi.com/documentation/computers/linux_kernel.html). First remove the loaded module. 
@@ -10,7 +10,7 @@
   3. Vnc viewer
  
 # Summary
-  The aim of this project to write a driver to read the data from ADXL745 sensor interfaced using I2C protocol to raspberry pi 4 (1GB). ADXL745 ... to be added
+  The aim of this project to write a driver to read the data from ADXL345 sensor interfaced using I2C protocol to raspberry pi 4 (1GB).
   
 # Introduction  
   I2C stands for Inter-Integrated Circuit.I2C protocol is widely used for interfacing peripheral devices. I2C is a two wired protocol with one wire as "SCL" used for carrying       clock signal and other wire is "SDA" used for transferring data serially. I2C is a master slave protocol which means that the communication will always be initiated by the         master and in total we can connect 128 slaves. SMBus (System Management Bus) protocol is based on I2C. Most I2C devices work on SMBus but the reverse is not true.
@@ -20,7 +20,7 @@
   
    ![image](https://user-images.githubusercontent.com/90611123/145371041-47122bd9-71bb-4fb3-adda-fc893dcfccc4.png)
   
-  Hardware consists of RaspberryPi 4 and ADXL745 sensor.
+  Hardware consists of RaspberryPi 4 and ADXL345 sensor.
 
 # Kernel Driver
   The project focuses on the implementation of the client side driver.
